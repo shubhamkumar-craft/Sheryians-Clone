@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sheryians clone</title>
+    <link href="./dist/output.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/helvetica-neue-5" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body class="overflow-x-hidden">
+        
+        <!-- phone approach first -->
+    <!-- nav bar -->
+    <nav class="px-5 py-5 flex items-center justify-between md:h-20 lg:h-14" 
+    style="background: linear-gradient(90deg, #0c0c0c 20%, #1d2c2a 50%, #0c0c0c 80%);">
+   
+   <!-- Logo -->
+   <a class="md:px-14 flex items-center gap-2" href="#">
+       <img class="h-[33px] w-[25px]" src="assets/asset 9.png" alt="Sheryians Logo">
+       <span class="font-semibold text-white font-sans">Sheryians Coding School</span>
+   </a>
+
+   <!-- Desktop Menu -->
+   <div class="hidden sm:flex items-center gap-14 pr-10 text-white">
+       <a class="cursor-pointer" href="#">Home</a>
+       <a class="cursor-pointer" href="https://www.sheryians.com/courses">Courses</a>
+       <a class="font-semibold text-[#882727] animate-bounce" 
+          href="https://www.sheryians.com/courses/courses-details/Job%20Ready%20AI%20Powered%20Cohort:%20Web%20+%20DSA%20+%20Aptitude">Live Courses</a>
+       <a class="cursor-pointer" href="#">Request Callback</a>
+       <a class="text-black bg-[#24cfa6] text-center rounded-md font-semibold px-6 py-1.5 cursor-pointer md:flex hidden" 
+          href="https://www.sheryians.com/signin">Sign In</a>
+   </div>
+
+   <!-- Mobile Menu Button -->
+   <div class="flex gap-8 items-center sm:hidden">
+       <button class="text-black cursor-pointer" aria-label="Call">
+           <i class="fa-solid fa-phone text-white"></i>
+       </button>
+       <button id="menuBtn" class="flex flex-col items-center  gap-1 cursor-pointer">
+           
+           <div class="h-0.5 w-5 bg-white"></div>
+           <div class="h-0.5 w-5 bg-white"></div>
+       </button>
+   </div>
+   <div id="mobileMenu" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-90 flex flex-col items-start p-6 md:hidden">
+    <div class="flex justify-between w-full">
+        <span class="text-4xl font-thin text-white ">Menu</span>
+        <button id="closeMenu" class="text-white text-2xl">&times;</button>
+    </div>
+    <div class="flex flex-col gap-5 mt-6 text-lg">
+    
+        <a class="text-gray-400 hover:text-white" href="#">Home</a>
+        <a class="text-gray-400 hover:text-white" href="https://www.sheryians.com/courses">Courses</a>
+        <a class="text-red-500 font-semibold" href="https://www.sheryians.com/live-courses">Live Course</a>
+        <a class="text-gray-400 hover:text-white" href="https://www.sheryians.com/signin">Sign In</a>
+    </div>
+</div>
+
+</nav>
+
+
+    
+ <main class="min-w-full min-h-full  px-1 py-3  "  style="background: linear-gradient(90deg, #0c0c0c 20%, #1d2c2a 50%, #0c0c0c 80%);">
+      <div class="text-center  pt-16 ">
+        <h3>
+        <span class=" font-sans text-5xl text-white md:text-7xl ">We only </span> <span class="font-sans text-5xl text-[#24cfa6] md:text-7xl">teach</span> 
+       <br> <span class="font-sans text-5xl text-white md:text-7xl ">what we are really <br> <span class="font-sans text-5xl text-white md:text-7xl">really  good at.</span> </span></h3>
+    
+    <a href="https://www.sheryians.com/courses">  <input class=" mt-14  font-sans text-1xl font-semibold bg-[#24cfa6] px-8 py-3 rounded-lg md:text-[20px] md:py-2 " type="button" value="Check Courses-Make an Impact" ></a> 
+    </div>
+         <div class="flex justify-evenly items-center  mt-14  text-center text-white px-5 py-3 md:px-48 ">
+            <div >
+            <h3 class="font-extrabold text-1xl md:text-2xl">25K+</h3>
+            <p class="font-light">Students taught</p>
+               </div>
+
+               <div>
+                <h3 class="font-extrabold text-1xl md:text-2xl">20+</h3>
+                <p class="font-light">Instructors</p>
+                   </div>
+                   <div>
+                    <h3 class="font-extrabold text-1xl md:text-2xl">457K+</h3>
+                    <p class="font-light">Youtube Subs.</p>
+                       </div>
+            </div>
+
+
+
+<div class=" mt-18 px-5 py-3 text-center lg:px-44 ">
+     <h3 class="font-medium text-white text-2xl font-sans md:text-5xl ">we do whatever it takes to help you
+        <span class="font-medium text-[#24cfa6] text-2xl font-sans md:text-5xl " >understand the concepts.</span>
+     </h3>
+     
+</div>
+
+
+<!-- youtube  -->
+<div class="mt-8 flex flex-col  ">
+    <div class="  flex justify-center " >
+        <iframe class="rounded-2xl md:w-[960px] md:h-[500px] " width="400" height="300" src="https://www.youtube.com/embed/60SRAWmMXyc?si=BsHn56O9NsB_iKhI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+ <!-- button -->
+    <div class="flex justify-center mt-14 ">
+      <a href="https://www.youtube.com/@sheryians">   <button class="bg-[#24cfa6] px-10 py-2 font-bold rounded-lg md:py-3 md:px-14 ">Explore free learning</button></a>
+    </div>
+</div>
+
+
+
+<!-- course offered  -->
+<h3 class="text-white text-xl font-sans mt-48  mb-10 px-2 md:px-14 md:text-4xl">Course Offered.</h3>
+<!-- working on this part  -->
+<div class="flex flex-col  mt-5 px-4 items-center gap-10  lg:grid lg:grid-cols-2 lg:justify-items-center lg:gap-16 xl:grid xl:grid-cols-3 xl:gap-16 xl:justify-items-center">
+    <div class="flex flex-col w-[310px] max:w-[365px] sm:w-[400px] md:w-[650px] lg:w-[380px] ">
+        <div id="top " class="grid items-center" >
+            <a href="#">
+                <img class="rounded-t-xl" src="assets/asset 0.jpeg" alt="courses">
+            </a>
+        </div>
+        <div class="bg-[#171717]  pt-5 pb-6
+         flex flex-col px-6 rounded-b-xl " id="bottom" >
+            <h2 class="text-white   font-bold text-xl ">Job Readdy AI Powered Cohort: Web + DSA + Aptitude </h2>
+            <!-- button  -->
+             <div class="flex gap-4 mt-2 ">
+                <a href="#">
+                    <button class="px-4 py-1 bg-[#882727] text-white font-semibold rounded-md">LIVE BATCH</button>
+                </a>
+                <a href="#">
+                    <button class="px-4 py-1 bg-[#2c2c2c] text-white font-semibold rounded-md">HINDI</button>
+                </a>
+             </div>
+             <p class="mt-8 text-[#24cfa6] text-[14px] text-start ">Limited Time Discount</p>
+     <!-- price  -->
+      <div class="flex items-center justify-between mt-2  "> 
+        <div class="flex items-center">
+        
+            <img class="w-[22px] h-[22px]  text-white " src="https://img.icons8.com/material-rounded/24/FFFFFF/rupee.png" alt="rupee"/>
+            <span class="text-white font-semibold text-2xl  ">5999</span>
+            <span class="text-white font-medium text-lg pl-2" > (+GST)</span>
+        
+        </div>
+        <div >
+            <button class="bg-white text-[13px]  px-2 py-1 rounded-md " >50% OFF</button>
+        </div>
+         </div>
+
+    </div>
+    <div class="flex justify-center mt-3" > 
+    <a href="#">
+        <button class="bg-[#24cfa6] py-2 rounded-lg font-semibold w-[310px] max:w-[365px] sm:w-[400px] md:w-[650px] lg:w-[380px]">View Details</button>
+    </a>
+      </div>
+    </div>
+    <!-- second  -->
+    <div class="flex flex-col  w-[310px] max:w-[365px] sm:w-[400px] md:w-[650px] lg:w-[380px] ">
+        <div id="top " class="grid items-center" >
+            <a href="#">
+                <img class="rounded-t-xl" src="assets/asset 1.jpeg" alt="courses">
+            </a>
+        </div>
+        <div class="bg-[#171717]  pt-5 pb-6
+         flex flex-col px-6 rounded-b-xl " id="bottom" >
+            <h2 class="text-white   font-bold text-xl ">Three.js Domination</h2>
+            <!-- button  -->
+             <div class="flex gap-4 mt-2 ">
+        
+                <a href="#">
+                    <button class="px-4 py-1 bg-[#2c2c2c] text-white font-semibold rounded-md mb-7">HINDI</button>
+                </a>
+                <br>
+                <br>
+             </div>
+             <p class="mt-8 text-[#24cfa6] text-[14px] text-start ">Black Friday Sale</p>
+     <!-- price  -->
+      <div class="flex items-center justify-between mt-2  "> 
+        <div class="flex items-center">
+        
+            <img class="w-[22px] h-[22px]  text-white " src="https://img.icons8.com/material-rounded/24/FFFFFF/rupee.png" alt="rupee"/>
+            <span class="text-white font-semibold text-2xl  ">2499</span>
+               
+        </div>
+        <div >
+            <button class="bg-white text-[13px]  px-2 py-1 rounded-md " >29% OFF</button>
+        </div>
+         </div>
+
+    </div>
+    <div class="flex justify-center mt-3" > 
+    <a href="#">
+        <button class="bg-[#24cfa6]  py-2 rounded-lg font-semibold w-[310px] max:w-[365px] sm:w-[400px] md:w-[650px] lg:w-[380px]">View Details</button>
+    </a>
+      </div>
+    </div>
+    <!-- third  -->
+    <div class="flex flex-col  w-[310px] max:w-[365px] sm:w-[400px] md:w-[650px] lg:w-[380px]  ">
+        <div id="top " class="grid items-center" >
+            <a href="#">
+                <img class="rounded-t-xl" src="assets/asset 2.jpeg" alt="courses">
+            </a>
+        </div>
+        <div class="bg-[#171717]  pt-5 pb-6
+         flex flex-col px-6 rounded-b-xl " id="bottom" >
+            <h2 class="text-white   font-bold text-xl ">Java & DSA Domination<h2>
+            <!-- button  -->
+             <div class="flex gap-4 mt-2 ">
+                
+                <a href="#">
+                    <button class="px-4 py-1 bg-[#2c2c2c] text-white font-semibold rounded-md mb-7">HINGLISH</button>
+                </a>
+                <br>
+                <br>
+             </div>
+             <p class="mt-8 text-[#24cfa6] text-[14px] text-start ">Limited Time Discount</p>
+     <!-- price  -->
+      <div class="flex items-center justify-between mt-2  "> 
+        <div class="flex items-center">
+        
+            <img class="w-[22px] h-[22px]  text-white " src="https://img.icons8.com/material-rounded/24/FFFFFF/rupee.png" alt="rupee"/>
+            <span class="text-white font-semibold text-2xl  ">4999</span>
+        
+        </div>
+        <div >
+            <button class="bg-white text-[13px]  px-2 py-1 rounded-md " >50% OFF</button>
+        </div>
+         </div>
+
+    </div>
+    <div class="flex justify-center mt-3" > 
+    <a href="#">
+        <button class="bg-[#24cfa6]  py-2 rounded-lg font-semibold w-[310px] max:w-[365px] md:w-[650px] lg:w-[380px]">View Details</button>
+    </a>
+      </div>
+    </div>
+    <!-- fourth  -->
+    <div class="flex flex-col  w-[310px] max:w-[365px] sm:w-[400px] md:w-[650px] lg:w-[380px]">
+        <div id="top " class="grid items-center" >
+            <a href="#">
+                <img class="rounded-t-xl" src="assets/asset 3.jpeg" alt="courses">
+            </a>
+        </div>
+        <div class="bg-[#171717]  pt-5 pb-6
+         flex flex-col px-6 rounded-b-xl " id="bottom" >
+            <h2 class="text-white   font-bold text-xl ">Aptitude & Reasoning for Campus Placements </h2>
+            <!-- button  -->
+             <div class="flex gap-4 mt-2 ">
+            
+                <a href="#">
+                    <button class="px-4 py-1 bg-[#2c2c2c] text-white font-semibold rounded-md">HINGLISH</button>
+                </a>
+             </div>
+             <p class="mt-8 text-[#24cfa6] text-[14px] text-start ">Black Friday Sale</p>
+     <!-- price  -->
+      <div class="flex items-center justify-between mt-2  "> 
+        <div class="flex items-center">
+        
+            <img class="w-[22px] h-[22px]  text-white " src="https://img.icons8.com/material-rounded/24/FFFFFF/rupee.png" alt="rupee"/>
+            <span class="text-white font-semibold text-2xl  ">999</span>
+        
+        </div>
+        <div >
+            <button class="bg-white text-[13px]  px-2 py-1 rounded-md " >67% OFF</button>
+        </div>
+         </div>
+
+    </div>
+    <div class="flex justify-center mt-3" > 
+    <a href="#">
+        <button class="bg-[#24cfa6]  py-2 rounded-lg font-semibold w-[310px] max:w-[365px] sm:w-[400px] md:w-[650px] lg:w-[380px] ">View Details</button>
+    </a>
+      </div>
+    </div>
+    <!-- fifth  -->
+    <div class="flex flex-col  w-[310px] max:w-[365px] sm:w-[400px] md:w-[650px] lg:w-[380px] ">
+        <div id="top " class="grid items-center" >
+            <a href="#">
+                <img class="rounded-t-xl" src="assets/asset 4.jpeg" alt="courses">
+            </a>
+        </div>
+        <div class="bg-[#171717]  pt-5 pb-6
+         flex flex-col px-6 rounded-b-xl " id="bottom" >
+            <h2 class="text-white   font-bold text-xl ">Back-End Domination: Create Efficient Back-End.</h2>
+            <!-- button  -->
+             <div class="flex gap-4 mt-2 ">
+            
+                <a href="#">
+                    <button class="px-4 py-1 bg-[#2c2c2c] text-white font-semibold rounded-md">HINDI</button>
+                </a>
+             </div>
+             <p class="mt-8 text-[#24cfa6] text-[14px] text-start ">Limited Time Discount</p>
+     <!-- price  -->
+      <div class="flex items-center justify-between mt-2  "> 
+        <div class="flex items-center">
+        
+            <img class="w-[22px] h-[22px]  text-white " src="https://img.icons8.com/material-rounded/24/FFFFFF/rupee.png" alt="rupee"/>
+            <span class="text-white font-semibold text-2xl  ">3999</span>
+        
+        </div>
+        <div >
+            <button class="bg-white text-[13px]  px-2 py-1 rounded-md " >67% OFF</button>
+        </div>
+         </div>
+
+    </div>
+    <div class="flex justify-center mt-3" > 
+    <a href="#">
+        <button class="bg-[#24cfa6]  py-2 rounded-lg font-semibold w-[310px] max:w-[365px] sm:w-[400px] md:w-[650px] lg:w-[380px]">View Details</button>
+    </a>
+      </div>
+    </div>
+    <!-- sixth  -->
+    <div class="flex flex-col  w-[320px] max:w-[375px] sm:w-[400px] md:w-[650px] lg:w-[380px]  ">
+        <div id="top " class="grid items-center" >
+            <a href="#">
+                <img class="rounded-t-xl" src="assets/asset 5.jpeg" alt="courses">
+            </a>
+        </div>
+        <div class="bg-[#171717]  pt-5 pb-6
+         flex flex-col px-6 rounded-b-xl " id="bottom" >
+            <h2 class="text-white   font-bold text-xl ">Front-End Domination: Create Anything with Code </h2>
+            <!-- button  -->
+             <div class="flex gap-4 mt-2 ">
+                
+                <a href="#">
+                    <button class="px-4 py-1 bg-[#2c2c2c] text-white font-semibold rounded-md">HINDI</button>
+                </a>
+             </div>
+             <p class="mt-8 text-[#24cfa6] text-[14px] text-start ">Limited Time Discount</p>
+     <!-- price  -->
+      <div class="flex items-center justify-between mt-2  "> 
+        <div class="flex items-center">
+        
+            <img class="w-[22px] h-[22px]  text-white " src="https://img.icons8.com/material-rounded/24/FFFFFF/rupee.png" alt="rupee"/>
+            <span class="text-white font-semibold text-2xl  ">3999</span>
+        
+        </div>
+        <div >
+            <button class="bg-white text-[13px]  px-2 py-1 rounded-md " >40% OFF</button>
+        </div>
+         </div>
+
+    </div>
+    <div class="flex justify-center mt-3" > 
+    <a href="#">
+        <button class="bg-[#24cfa6]  py-2 rounded-lg font-semibold w-[310px] max:w-[365px] sm:w-[400px] md:w-[650px] lg:w-[380px]">View Details</button>
+    </a>
+      </div>
+    </div>
+</div>
+
+<!-- companies -->
+<div class="flex justify-center  mt-36 text-center  ">
+    <h3 class="text-white  font-sans text-3xl md-text-5xl lg:text-5xl ">Top <span class="text-[#24cfa6]" >companies</span> <span> our students <br> working with</span> </h3>
+</div>
+
+<div class="my-20 px-12 text-center md:px-24 lg:px-44">
+     <img src="assets/asset 6.png" alt="companies">
+
+<div class=" flex justify-center text-center"> 
+<a href="https://www.sheryians.com/courses">  <button class="bg-[#24cfa6] hidden my-24 px-10 py-2 font-bold rounded-lg sm:flex md:py-3 md:px-14 ">Explore Course</button></a>
+
+</div>
+</div>
+<div class="flex justify-center text-center mx-2 h-[1px] bg-gray-400 md:mx-3 lg:mx-8 " ></div>
+
+
+ <div class="flex flex-col  px-2 md:px-4 lg:px-8 lg:grid lg:grid-cols-4  lg:items-start lg:pl-20 lg:py-24 " >
+
+<!-- logo  -->
+<div class="grid" >
+    <img class="h-[50px] w-[50px] px-2 mt-28 mb-3 lg:mt-1 " src="assets/asset 9.png" alt="logo">
+    <p class="text-white text-[13px] px-2 mb-3 " >Let's connect with socials</p>
+<div class="flex gap-7 px-1 py-1 mb-14">
+    <a href="https://www.instagram.com/sheryians_coding_school/?hl=en">
+        <img width="24" height="24" class="md:[30px]" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/instagram-new.png" alt="instagram-new"/>
+    </a>
+    <a href="https://in.linkedin.com/company/the-sheryians-coding-school">
+        <img width="24" height="24" class="md:[30px]" src="https://img.icons8.com/ios-filled/50/FFFFFF/linkedin.png" alt="linkedin"/>
+    </a> 
+    <a href="https://discord.com/invite/sheryians-coding-school-1013855166962864138">
+        <img width="24" height="24" class="md:[30px]" src="https://img.icons8.com/ios-filled/50/FFFFFF/discord-logo.png" alt="discord-logo"/>
+    </a>
+    <a href="https://www.youtube.com/channel/UCc7gpqMnnOSbU_F2-5MVVZw">
+        <img width="24" height="24" class="md:[30px]" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/youtube-play.png" alt="youtube-play"/>
+    </a>
+    <a href="https://x.com/sheryians_?lang=en">
+        <img width="24" height="24" class="md:[30px]" src="https://img.icons8.com/ios-filled/50/FFFFFF/twitterx--v2.png" alt="twitterx--v2"/>
+    </a>
+    
+</div>
+</div>
+<!-- companies  -->
+<div class="grid px-2 gap-3 ">
+     <h3 class="font-bold text-white  mb-5 md:mb-1 ">COMPANY</h3>
+     <a class=" text-slate-200 hover:text-[#24cfa6] " href="https://www.sheryians.com/aboutUs">About Us</a>
+     <a class=" text-slate-200 hover:text-[#24cfa6] " href="hello@sheryians.com">Support</a>
+     <a class=" text-slate-200 hover:text-[#24cfa6] " href="https://www.sheryians.com/terms-and-conditions/Terms_and_Conditions.pdf">Privacy Policy</a>
+     <a class=" text-slate-200 hover:text-[#24cfa6] " href="https://www.sheryians.com/terms-and-conditions/Terms_and_Conditions.pdf">Terms  and Condition</a>
+     <a class=" text-slate-200 hover:text-[#24cfa6] " href="https://www.sheryians.com/Pricing&Refund-Policy/Pricing-and-Refund_policy.pdf">Pricing and Refund</a>
+     <a class=" text-slate-200 hover:text-[#24cfa6] mb-5 md:mb-3 " href="https://www.sheryians.com/hire">Hire From Us</a>
+
+</div>
+<!-- community -->
+ <div class="grid px-2 gap-2    ">
+     <h3 class="font-bold text-white  mb-5 md:mb-1 ">COMMUNITY</h3>
+     <a class=" text-slate-200 hover:text-[#24cfa6] " href="https://www.instagram.com/inertiabysheryians">Inertia</a>
+     <a class=" text-slate-200 hover:text-[#24cfa6] mb-5 md:mb-3 " href="https://discord.gg/D23JkFqrgz">Discord</a>
+
+
+ </div>
+ 
+ <!-- GET IN TOUCH  -->
+ <div class="grid px-2 gap-2  ">
+   <h3 class="text-white font-bold">Get In Touch</h3>
+   <a class=" text-slate-200 hover:text-[#24cfa6] " href="tel:+919691778470">+91 9691778470</a>
+   <a class=" text-slate-200 hover:text-[#24cfa6] " href="tel:+918109161752">+91 8109161752</a>
+   <a class=" text-slate-200 hover:text-[#24cfa6] " href="hello@sheryians.com">hello@sheryians.com</a>
+   <a class=" flex text-slate-200 hover:text-[#24cfa6] mb-24 md:mb-3 " href="https://www.google.com/maps/place/Sheryians+Coding+School/@23.2512609,77.4627502,17z/data=!3m1!4b1!4m6!3m5!1s0x397c43977890a98d:0x928a948dc6de732e!8m2!3d23.251256!4d77.4653251!16s%2Fg%2F11gvy2g2z8">23-B, Indrapuri Sector C, Bhopal(MP),462021</a>
+ </div>
+
+
+
+
+
+</div>
+<div class="flex justify-center text-center mx-2  h-[1px] bg-gray-400 md:mx-3 lg:mx-8 " ></div>
+
+<div class=" justify-center text-center text-white px-5 py-4 " >
+    <p>Copyright @ 2025 Sheryians Pvt.Ltd.</p>
+    <p>All Rights Reserved.</p>
+
+</div>
+
+ </main>
+
+
+
+    <script src="script.js" ></script>
+    
+</body>
+</html>
